@@ -1,0 +1,248 @@
+@font-face {
+    src: url(/Tesla/fonts/gotham-ssm-black.otf);
+    font-family: gothem-ssm;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Utility */
+.btn {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* body */
+body {
+    max-width: 100%;
+    max-width: 100%;
+    background: #f4f4f4;
+}
+
+.simple-banner {
+    background:  linear-gradient(to bottom right, #55566a, #282834);
+}
+
+/* fixed Banner */
+.fixed-banner {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.fixed-banner span , .fixed-banner span a {
+    color: #fff;
+    padding: 15px;
+}
+/* designing the navbar + logo + globe */
+
+.nav-logo-glob-wrapper {
+    background:  linear-gradient(to bottom right, #55566a, #282834);
+    padding: 10px;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* design the logo */
+
+.logo {
+    /* width: 120px;
+    height: 24px; */
+}
+.navbar {
+ 
+}
+.navbar .nav-items {
+    display: flex;
+}
+
+.navbar .nav-items li {
+    list-style: none;
+    padding: 0 20px;
+    border: none;
+}
+
+/* design Globe nav */
+.globe-items{
+    display: flex;
+}
+
+.globe-items li {
+    list-style: none;
+    padding: 0 20px;
+}
+.globe-items li a {
+    text-decoration: none;
+}
+
+/* designing the Image / video */
+
+/* .content {
+    position: relative;
+} */
+
+.image {
+    position: relative;
+    max-width: 100%;
+    height: 800px;
+    background: url(/Tesla/img/Model-3-Main-page.jpeg) no-repeat center center/cover;
+    display: block;
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 50%;
+}
+
+.content .model{
+    display: block;
+    font-family: 'gothem-ssm', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    /* font-weight: 500; */
+    line-height: 60px;
+}
+
+.content .from {
+    display: block;
+    font-family: 'gothem-ssm', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.content .after-federal {
+    display: block;
+    font-family: 'gothem-ssm', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12.75px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 20px;
+}
+
+/* designing the tesla image skeleton */
+
+.tesla-skeleton-image {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: 800px;
+    background: url(/Tesla/img/tesla-skeleton.avif) no-repeat center center/cover;
+}
+
+
+.tesla-skeleton-image .content {
+    display: flex;
+    align-items: stretch;
+    height: 1400px;
+    padding: 10px;
+
+}
+
+.tesla-skeleton-image .content .first-design{
+    color: rgb(23, 26, 32);
+    display: block;
+    font-family: 'gothem-ssm', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+    line-height: 36px;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+
+
+.tesla-skeleton-image .content .safty-is {
+    color: rgb(57, 60, 65);
+    display: block;
+    font-family: 'gothem-ssm', sans-serif;
+    font-weight: 10;
+    letter-spacing: -0.5px;
+    line-height: 80px;
+    font-size: 24px;
+}
+
+.tesla-skeleton-image .content .safty-is a {
+    text-decoration: underline;
+    color: rgb(57, 60, 65);
+    font-size: 24px;
+}
+
+
+.safty-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.five-stars {
+    width: 50%;
+    display: block;
+}
+
+.top-safty {
+    width: 50%;
+    display: block;
+}
+
+/* map image design */
+
+.map-image {
+    margin-top: 70px;
+    background: url(/Tesla/img/map.avif) no-repeat center center/cover;
+    position: relative;
+    max-width: 100%;
+    height: 1100px;
+    display: block;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-content div {
+    width: 280px;
+    height: 400px;
+    padding-left: 64px;
+    padding-top: 100px;
+}
+
+.image-content .title {
+    font-family: 'gothem-ssm', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.image-content .description {
+    font-family: 'gothem-ssm', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
